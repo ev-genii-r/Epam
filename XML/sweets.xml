@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="candy.xsl"?>
+<Candies>
+                <Candy name="Alena's beaver">
+                    <CandyType>ChocolateSweets</CandyType>
+                    <Production>Alena'sDream.inc</Production>
+                    <Ingredients>
+                        <Sugar>2g</Sugar>
+                        <ChocholatePowder>3g</ChocholatePowder>
+                        <Flour>1g</Flour>
+                        <NutOil>2g</NutOil>
+                    </Ingredients>
+                    <Value fats="0.5" proteins="0.01" carbohidrates="0.23"/>
+                    <Energy>20</Energy>
+                </Candy>
+                <Candy name="Alena's squirrel">
+                    <CandyType>ChocolateSweets</CandyType>
+                    <Production>Alena'sDream.inc</Production>
+                    <Ingredients>
+                        <Sugar>2g</Sugar>
+                        <ChocholatePowder>3g</ChocholatePowder>
+                        <NutPowder>5g</NutPowder>
+                        <NutOil>2g</NutOil>
+                        <Caramel>2g</Caramel>
+                    </Ingredients>
+                    <Value fats="0.7" proteins="0.2" carbohidrates="0.3"/>
+                    <Energy>14</Energy>
+                </Candy>
+                <Candy name="Alena's dad">
+                    <CandyType>ChocolateSweets</CandyType>
+                    <Production>Alena'sDream.inc</Production>
+                    <Ingredients>
+                        <Sugar>3g</Sugar>
+                        <ChocholatePowder>1g</ChocholatePowder>
+                        <Brandy>4g</Brandy>
+                        <Starch>0.3g</Starch>
+                    </Ingredients>
+                    <Value fats="0.2" proteins="0.2" carbohidrates="0.1"/>
+                    <Energy>22</Energy>
+                </Candy>
+                <Candy name="Berezka">
+                    <CandyType>ChocolateSweets</CandyType>
+                    <Production>RussianSoul.inc</Production>
+                    <Ingredients>
+                        <Sugar>2g</Sugar>
+                        <ChocholatePowder>3g</ChocholatePowder>
+                        <WhiteChocolate>2g</WhiteChocolate>
+                        <Flour>1g</Flour>
+                        <NutOil>3g</NutOil>
+                    </Ingredients>
+                    <Value fats="0.4" proteins="0.11" carbohidrates="0.73"/>
+                    <Energy>24</Energy>
+                </Candy>
+                <Candy name="Belochka">
+                    <CandyType>ChocolateSweets</CandyType>
+                    <Production>RussianSoul.inc</Production>
+                    <Ingredients>
+                        <Sugar>3g</Sugar>
+                        <ChocholatePowder>3g</ChocholatePowder>
+                        <NutPowder>0.3g</NutPowder>
+                        <Nuts>0.8g</Nuts>
+                        <NutOil>2g</NutOil>
+                    </Ingredients>
+                    <Value fats="0.9" proteins="0.6" carbohidrates="0.4"/>
+                    <Energy>29</Energy>
+                </Candy>
+                <Candy name="Ukusi menia pchola">
+                    <CandyType>ChocolateSweets</CandyType>
+                    <Production>RussianSoul.inc</Production>
+                    <Ingredients>
+                        <ChocholatePowder>1g</ChocholatePowder>
+                        <Honey>6g</Honey>
+                        <Starch>0.3g</Starch>
+                    </Ingredients>
+                    <Value fats="0.4" proteins="0.8" carbohidrates="0"/>
+                    <Energy>20</Energy>
+                </Candy>
+                <Candy name="Alena's bear">
+                    <CandyType>CaramelSweets</CandyType>
+                    <Production>Alena'sDream.inc</Production>
+                    <Ingredients>
+                        <Sugar>4g</Sugar>
+                        <NutOil>2g</NutOil>
+                        <Blackberry>0.3g</Blackberry>
+                        <Caramel>2g</Caramel>
+                        <Starch>0.3g</Starch>
+                    </Ingredients>
+                    <Value fats="0.3" proteins="0.6" carbohidrates="0.01"/>
+                    <Energy>12</Energy>
+                </Candy>
+                <Candy name="Alena's cow">
+                    <CandyType>CaramelSweets</CandyType>
+                    <Production>Alena'sDream.inc</Production>
+                    <Ingredients>
+                        <Sugar>7g</Sugar>
+                        <NutOil>2g</NutOil>
+                        <Milk>5g</Milk>
+                        <Starch>0.3g</Starch>
+                    </Ingredients>
+                    <Value fats="0.6" proteins="0.1" carbohidrates="0.3"/>
+                    <Energy>18</Energy>
+                </Candy>
+
+                <Candy name="Alena's juice">
+                    <CandyType>JellySweets</CandyType>
+                    <Production>Alena'sDream.inc</Production>
+                    <Ingredients>
+                        <Sugar>4g</Sugar>
+                        <Blackberry>0.3g</Blackberry>
+                        <AppleJuice>2g</AppleJuice>
+                        <Starch>0.3g</Starch>
+                        <Gelatin>0.5g</Gelatin>
+                    </Ingredients>
+                    <Value fats="0.3" proteins="0.3" carbohidrates="0.08"/>
+                    <Energy>10</Energy>
+                </Candy>
+                <Candy name="Alena's melon">
+                    <CandyType>JellySweets</CandyType>
+                    <Production>Alena'sDream.inc</Production>
+                    <Ingredients>
+                        <Sugar>4g</Sugar>
+                        <MelonJuice>7g</MelonJuice>
+                        <Gelatin>0.5g</Gelatin>
+                    </Ingredients>
+                    <Value fats="0.05" proteins="0" carbohidrates="0.16"/>
+                    <Energy>7</Energy>
+                </Candy>
+                <Candy name="valley in the forest">
+                    <CandyType>JellySweets</CandyType>
+                    <Production>RussianSoul.inc</Production>
+                    <Ingredients>
+                        <Sugar>2g</Sugar>
+                        <Blackberry>0.3g</Blackberry>
+                        <Raspberry>0.6g</Raspberry>
+                        <Starch>0.3g</Starch>
+                        <Gelatin>0.5g</Gelatin>
+                    </Ingredients>
+                    <Value fats="0.2" proteins="0.4" carbohidrates="0.1"/>
+                    <Energy>12</Energy>
+                </Candy>
+                <Candy name="Granny's Jam">
+                    <CandyType>JellySweets</CandyType>
+                    <Production>RussianSoul.inc</Production>
+                    <Ingredients>
+                        <Sugar>4g</Sugar>
+                        <Cranberry>6g</Cranberry>
+                        <Gelatin>0.5g</Gelatin>
+                    </Ingredients>
+                    <Value fats="0.2" proteins="0.2" carbohidrates="0.3"/>
+                    <Energy>23</Energy>
+                </Candy>
+
+                <Candy name="Kazachek">
+                    <CandyType>AlcoholSweets</CandyType>
+                    <Production>RussianSoul.inc</Production>
+                    <Ingredients>
+                        <Sugar>7g</Sugar>
+                        <Vodka>0.5g</Vodka>
+                        <Starch>0.6g</Starch>
+                    </Ingredients>
+                    <Value fats="0.4" proteins="0" carbohidrates="0.01"/>
+                    <Energy>16</Energy>
+                </Candy>
+                <Candy name="Bear's Bite">
+                    <CandyType>AlcoholSweets</CandyType>
+                    <Production>RussianSoul.inc</Production>
+                    <Ingredients>
+                        <Sugar>7g</Sugar>
+                        <BeersExtract>0.9g</BeersExtract>
+                        <Honey>2g</Honey>
+                        <Starch>0.3g</Starch>
+                    </Ingredients>
+                    <Value fats="0.6" proteins="0.01" carbohidrates="0"/>
+                    <Energy>19</Energy>
+                </Candy>
+</Candies>

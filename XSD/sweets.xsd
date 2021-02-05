@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.com/candies"
+        xmlns:tns="http://www.example.com/candies"
+        elementFormDefault="qualified">
+    <element name="Candies">
+        <complexType>
+            <sequence>
+                <element name="Candy"
+                         type="tns:Candy"
+                         minOccurs="11"
+                         maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+    <complexType name="Candy">
+        <sequence>
+            <element name="CandyType" type="tns:candyType"/>
+            <element name="Production" type="string"/>
+            <element name="Ingredients" type="tns:ingredients"/>
+            <element name="Value" type="tns:value"/>
+            <element name="Energy" type="int"/>
+        </sequence>
+        <attribute name="name" type="string"/>
+    </complexType>
+    <simpleType name="candyType">
+        <restriction>
+            <enumeration value="ChocolateSweets"/>
+            <enumeration value="CaramelSweets"/>
+            <enumeration value="JellySweets"/>
+            <enumeration value="AlcoholSweets"/>
+        </restriction>
+    </simpleType>
+    <complexType name="ingredients">
+        <sequence>
+            <element name="Sugar" type="string"/>
+            <element name="ChocolatePowder" type="string"/>
+            <element name="Flour" type="string"/>
+            <element name="NutOil" type="string"/>
+            <element name="NutPowder" type="string"/>
+            <element name="Caramel" type="string"/>
+            <element name="Brandy" type="string"/>
+            <element name="Starch" type="string"/>
+            <element name="WhiteChocolate" type="string"/>
+            <element name="Nuts" type="string"/>
+            <element name="Honey" type="string"/>
+            <element name="Blackberry" type="string"/>
+            <element name="Milk" type="string"/>
+            <element name="AppleJuice" type="string"/>
+            <element name="Gelatin" type="string"/>
+            <element name="MelonJuice" type="string"/>
+            <element name="Raspberry" type="string"/>
+            <element name="Cranberry" type="string"/>
+            <element name="Vodka" type="string"/>
+            <element name="BeersExtract" type="string"/>
+        </sequence>
+    </complexType>
+    <complexType name="value">
+        <attribute name="fats" type="double"/>
+        <attribute name="proteins" type="double"/>
+        <attribute name="carbohidrates" type="double"/>
+    </complexType>
+</schema>
+
